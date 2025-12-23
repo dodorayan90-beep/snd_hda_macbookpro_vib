@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
 env:
-  CUSTOM_IMAGE_NAME: Cirrus Logic Vanilla OS
-  BUILDX_NO_DEFAULT_ATTESTATIONS: 1
+  CUSTOM_IMAGE_NAME: snd_hda_macbookpro_vib
+  BUILDX_NO_DEFAULT_ATTESTATIONS: 1  
 
 jobs:
   check_update:
