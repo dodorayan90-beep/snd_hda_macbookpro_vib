@@ -1,0 +1,4 @@
+name: install-debs
+description: "Placeholder module — no-op so vib can run"
+run: |
+  echo "No .deb packages to install"
